@@ -30,7 +30,7 @@ export default function Hero() {
       {/* MIDDLE — TEXT + BUTTON */}
       <div className="hero-center">
         <h1 className="headline red-rose">
-          <span className="orange red-rose">Groceries</span> to Your Door
+          <span className="orange red-rose">Groceries</span> to  Your Door
         </h1>
 
         <p className="subtext red-rose">
