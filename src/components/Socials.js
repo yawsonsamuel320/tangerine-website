@@ -22,16 +22,16 @@ export default function Socials() {
                         <i className="fab fa-whatsapp"></i>
                     </a>
 
-                    <a href="https://tiktok.com/@yourpage" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="https://tiktok.com/@yourpage" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-tiktok"></i>
-                    </a>
+                    </a> */}
                 </div>
 
             </div>
 
-            <div className="socials-right">
+            {/* <div className="socials-right">
                 <img src={PhoneImage} alt="Mobile app" className="phone-img" />
-            </div>
+            </div> */}
         </section>
     );
 }

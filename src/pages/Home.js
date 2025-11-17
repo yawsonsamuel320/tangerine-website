@@ -13,10 +13,10 @@ export default function Home() {
       <section id="home">
         <Hero />
       </section>
-
+      {/* 
       <section id="testimonials">
         <Testimonial />
-      </section>
+      </section> */}
 
       <section id="how-it-works">
         <HowItWorks />

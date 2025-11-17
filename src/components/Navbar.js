@@ -26,12 +26,12 @@ export default function Navbar() {
       {/* Navigation Links */}
       <ul className={menuOpen ? "nav-links open" : "nav-links"}>
         <li className="red-rose" onClick={() => scrollToSection("home")}>Home</li>
-        <li className="red-rose" onClick={() => scrollToSection("testimonials")}>Testimonials</li>
+        {/* <li className="red-rose" onClick={() => scrollToSection("testimonials")}>Testimonials</li> */}
         <li className="red-rose" onClick={() => scrollToSection("how-it-works")}>How it Works</li>
         <li className="red-rose" onClick={() => scrollToSection("contact")}>Contact Us</li>
       </ul>
 
-      <button className="signup-btn">Sign Up</button>
+      <button onClick={() => scrollToSection("how-it-works")} className="signup-btn">Sign Up</button>
     </nav>
   );
 }
