@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/tangerine-website/static/css/main.882bdb4c.css",
+    "main.js": "/tangerine-website/static/js/main.b93ae146.js",
+    "static/js/453.ca731456.chunk.js": "/tangerine-website/static/js/453.ca731456.chunk.js",
+    "static/media/phone-in-hand.png": "/tangerine-website/static/media/phone-in-hand.179e3a8a2b2698a52cb3.png",
+    "static/media/hero-bg.png": "/tangerine-website/static/media/hero-bg.10d7d2f9088734003598.png",
+    "static/media/mobile-app.png": "/tangerine-website/static/media/mobile-app.4cb34b4270a66440b314.png",
+    "index.html": "/tangerine-website/index.html",
+    "main.882bdb4c.css.map": "/tangerine-website/static/css/main.882bdb4c.css.map",
+    "main.b93ae146.js.map": "/tangerine-website/static/js/main.b93ae146.js.map",
+    "453.ca731456.chunk.js.map": "/tangerine-website/static/js/453.ca731456.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.882bdb4c.css",
+    "static/js/main.b93ae146.js"
+  ]
+}
