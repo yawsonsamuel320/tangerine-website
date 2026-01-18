@@ -1,6 +1,5 @@
 import React from "react";
 import "./Socials.css";
-import PhoneImage from "../assets/phone-in-hand.png";
 
 export default function Socials() {
     return (
@@ -29,9 +28,6 @@ export default function Socials() {
 
             </div>
 
-            {/* <div className="socials-right">
-                <img src={PhoneImage} alt="Mobile app" className="phone-img" />
-            </div> */}
         </section>
     );
 }
