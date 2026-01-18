@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Tangerine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Red Rose', sans-serif;
+      text-align: center;
+      margin-top: 80px;
+    }
+    .store-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      border: 1px solid #ccc;
+      padding: 10px 20px;
+      border-radius: 12px;
+      background: #f9f9f9;
+      transition: transform 0.2s;
+    }
+    .badge:hover {
+      transform: scale(1.05);
+    }
+    .badge-icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+    .badge-text .small {
+      font-size: 12px;
+      display: block;
+      color: #555;
+    }
+    .badge-text .big {
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <h2>Redirecting you to the app store…</h2>
+  <p>If nothing happens, please use the buttons below.</p>
+
+  <div class="store-buttons">
+    <!-- APP STORE -->
+    <a href="https://apps.apple.com/us/app/tangerine-shopper/id6753591027" target="_blank" rel="noopener noreferrer" class="badge app-store-badge">
+      <img src="/assets/appstore.png" alt="Apple logo" class="badge-icon" />
+      <div class="badge-text">
+        <span class="small">Available on the</span>
+        <span class="big">App Store</span>
+      </div>
+    </a>
+
+    <!-- GOOGLE PLAY -->
+    <a href="https://play.google.com/store/apps/details?id=com.intelegance.tangerine" target="_blank" rel="noopener noreferrer" class="badge google-play-badge">
+      <img src="/assets/googleplay.png" alt="Google Play icon" class="badge-icon" />
+      <div class="badge-text">
+        <span class="small">GET IT ON</span>
+        <span class="big">Google Play</span>
+      </div>
+    </a>
+  </div>
+
+  <script>
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Android
+    if (/android/i.test(ua)) {
+      window.location.replace("https://play.google.com/store/apps/details?id=com.intelegance.tangerine");
+    }
+
+    // iOS
+    else if (/iPad|iPhone|iPod/.test(ua)) {
+      window.location.replace("https://apps.apple.com/us/app/tangerine-market-to-doorstep/id6753591027");
+    }
+
+    // Desktop / unknown
+    else {
+      console.log("Desktop detected, staying on page for manual download.");
+    }
+  </script>
+</body>
+</html>
